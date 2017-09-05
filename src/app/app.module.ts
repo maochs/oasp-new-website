@@ -29,9 +29,9 @@ import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
   { path: 'oasp', component: OASPComponent },
-  { path: 'oasp4j', component: OASP4JComponent },
-  { path: 'oasp4js', component: OASP4JSComponent },
-  { path: 'oasp4net', component: OASP4NETComponent },
+  { path: 'oasp4-j', component: OASP4JComponent },
+  { path: 'oasp4-js', component: OASP4JSComponent },
+  { path: 'oasp4-net', component: OASP4NETComponent },
   { path: 'More', component: MoreComponent },
 ];
 
