@@ -59,6 +59,12 @@ width:150px ;
 height:30px;
 margin-left: 0px;
 }
+span{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration-line: underline;
+  }
+
 @media (max-width: 767px) {
 
   .text-xs-center {

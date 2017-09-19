@@ -25,6 +25,7 @@ import { MarkdownModule } from 'angular2-markdown';
 import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
+import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'oasp4-js', component: OASP4JSComponent },
   { path: 'oasp4-net', component: OASP4NETComponent },
   { path: 'More', component: MoreComponent },
+  { path: 'TermsOfUse', component: TermsOfUseComponent },
 ];
 
 @NgModule({
@@ -57,6 +59,7 @@ const routes: Routes = [
     NgbModalComponent,
     NgbModalCollaborationComponent,
     Oasp4FnComponent,
+    TermsOfUseComponent,
   ],
   imports: [
     BrowserModule,
