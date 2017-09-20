@@ -7,9 +7,8 @@
           <li class="dropdown">
             <a href="oasp4-js#over-view">Overview</a>
             <ul class="dropdown-submenu">
-              <li><a href="oasp4-js#sample-application">Sample Application</a></li>
+              <li><a href="oasp4-js#sample-application">Application reference</a></li>
               <li><a href="oasp4-js#app-template">Application template</a></li>
-              <li><a href="oasp4-js#ng-modules">Ng-modules</a></li>
               <li><a href="oasp4-js#oasp4js-catalog">OASP4JS Catalog</a></li>
             </ul>
             <li class="dropdown">
@@ -17,6 +16,9 @@
             </li>
             <li class="dropdown">
               <a href="oasp4-js#tl-go">Roadmap</a>
+            </li>
+            <li class="dropdown">
+              <a href="oasp4-js#resources">Resources</a>
             </li>
         </ul>
       </div>
@@ -36,9 +38,6 @@
         <div class="markdown over" id="app-template">
           <markdown [path]="'../../assets/content/OASP4JS/overview/app-template.md'"></markdown>
         </div>
-        <div class="markdown over" id="ng-modules">
-          <markdown [path]="'../../assets/content/OASP4JS/overview/ng-modules.md'"></markdown>
-        </div>
         <div class="markdown over" id="oasp4js-catalog">
           <markdown [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'"></markdown>
         </div>
@@ -56,17 +55,16 @@
                 <div class="timeline-label">
                   <div class="media">
                     <div class="media-left">
-                      <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
+                      <a href="http://de-mucdevondepl01:8090/">
                         <img class="d-flex align-self-start mr-3" src="../../assets/images/view_icon.png">
                       </a>
                     </div>
                     <div class="media-body">
-                      <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
+                      <a href="http://de-mucdevondepl01:8090/">
                         <p>View the demo <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
-                      <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
-                        application. Oasp sample application</p>
+                      <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management application. My Thai Star.</p>
                     </div>
                   </div>
                 </div>
@@ -80,18 +78,16 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <a href="https://github.com/oasp/oasp4js/wiki/IDE-agnostic-setup">
+                      <a href="https://github.com/oasp/oasp-vscode-ide">
                         <img class="d-flex align-self-start mr-3" src="../../assets/images/enviroment_icon.png">
                       </a>
                     </div>
                     <div class="media-body">
-                      <a href="https://github.com/oasp/oasp4js/wiki/IDE-agnostic-setup">
+                      <a href="https://github.com/oasp/oasp-vscode-ide">
                         <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
-                      <p class="description">The OASP4js IDE setup guide will guide you how to get your AngularJs development environment up and
-                        running.
-                      </p>
+                      <p class="description">This Visual Studio Code IDE configuration will provide a complete development environment up and running.</p>
                     </div>
                   </div>
                 </div>
@@ -105,16 +101,16 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <a href="http://github.com/oasp/oasp4js/">
+                      <a href="https://github.com/oasp/oasp4js-application-template">
                         <img class="d-flex align-self-start mr-3" src="../../assets/images/code_icon.png">
                       </a>
                     </div>
                     <div class="media-body">
-                      <a href="http://github.com/oasp/oasp4js/">
+                      <a href="https://github.com/oasp/oasp4js-application-template">
                         <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
-                      <p class="description">The code is hosted on Github, here is the OASP4js main repository .
+                      <p class="description">The code is hosted on Github, here is the OASP4js application template repository.
                       </p>
                     </div>
                   </div>
@@ -129,12 +125,12 @@
                 <div class="timeline-label">
                   <div class="media ">
                     <div class="media-left">
-                      <a href="https://github.com/oasp/oasp4js/wiki/Tutorial-Introduction">
+                      <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
                         <img class="d-flex align-self-start mr-3" src="../../assets/images/read_icon.png">
                       </a>
                     </div>
                     <div class="media-body">
-                      <a href="https://github.com/oasp/oasp4js/wiki/Tutorial-Introduction">
+                      <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
                         <p>Read the tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
@@ -168,6 +164,10 @@
         <h1 class="road">Roadmap</h1>
         <div class="markdown tl ">
           <markdown [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' "></markdown>
+          <div id="resources"></div>
+        </div>
+        <div class="markdown tl ">
+          <markdown [path]=" '../../assets/content/OASP4JS/resources/Resources.md' "></markdown>
         </div>
       </div>
     </div>
@@ -187,15 +187,12 @@
             <div class="markdown over " id="app-template ">
               <markdown [path]=" '../../assets/content/OASP4JS/overview/app-template.md' "></markdown>
             </div>
-            <div class="markdown over " id="ng-modules ">
-              <markdown [path]=" '../../assets/content/OASP4JS/overview/ng-modules.md' "></markdown>
-            </div>
             <div class="markdown over" id="oasp4js-catalog">
               <markdown [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'"></markdown>
             </div>
           </ng-template>
         </ngb-tab>
-        <ngb-tab title="Getting started ">
+        <ngb-tab title="Getting started">
           <ng-template ngbTabContent>
             <div class="timeline col-12 ">
               <div class=" timeline-centered ">
@@ -207,17 +204,16 @@
                     <div class="timeline-label ">
                       <div class="media">
                         <div class="media-left">
-                          <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
+                          <a href="http://de-mucdevondepl01:8090/">
                             <img class="d-flex align-self-start mr-3" src="../../assets/images/view_icon.png">
                           </a>
                         </div>
                         <div class="media-body">
-                          <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
+                          <a href="http://de-mucdevondepl01:8090/">
                             <p>View the demo <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
-                          <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
-                            application. Oasp sample application</p>
+                          <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management application. My Thai Star.</p>
                         </div>
                       </div>
                     </div>
@@ -231,18 +227,16 @@
                     <div class="timeline-label ">
                       <div class="media ">
                         <div class="media-left">
-                          <a href="https://github.com/oasp/oasp4js/wiki/IDE-agnostic-setup">
+                          <a href="https://github.com/oasp/oasp-vscode-ide">
                             <img class="d-flex align-self-start mr-3" src="../../assets/images/enviroment_icon.png">
                           </a>
                         </div>
                         <div class="media-body">
-                          <a href="https://github.com/oasp/oasp4js/wiki/IDE-agnostic-setup">
+                          <a href="https://github.com/oasp/oasp-vscode-ide">
                             <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
-                          <p class="description">The OASP4js IDE setup guide will guide you how to get your AngularJs development environment up
-                            and running.
-                          </p>
+                          <p class="description">This Visual Studio Code IDE configuration will provide a complete development environment up and running.</p>
                         </div>
                       </div>
                     </div>
@@ -256,16 +250,16 @@
                     <div class="timeline-label ">
                       <div class="media ">
                         <div class="media-left">
-                          <a href="http://github.com/oasp/oasp4js/">
+                          <a href="https://github.com/oasp/oasp4js-application-template">
                             <img class="d-flex align-self-start mr-3" src="../../assets/images/code_icon.png">
                           </a>
                         </div>
                         <div class="media-body">
-                          <a href="http://github.com/oasp/oasp4js/">
+                          <a href="https://github.com/oasp/oasp4js-application-template">
                             <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
-                          <p class="description">The code is hosted on Github, here is the OASP4js main repository .
+                          <p class="description">The code is hosted on Github, here is the OASP4js application template repository.
                           </p>
                         </div>
                       </div>
@@ -280,12 +274,12 @@
                     <div class="timeline-label">
                       <div class="media ">
                         <div class="media-left">
-                          <a href="https://github.com/oasp/oasp4js/wiki/Tutorial-Introduction">
+                          <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
                             <img class="d-flex align-self-start mr-3" src="../../assets/images/read_icon.png">
                           </a>
                         </div>
                         <div class="media-body">
-                          <a href="https://github.com/oasp/oasp4js/wiki/Tutorial-Introduction">
+                          <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
                             <p>Read the tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
@@ -318,10 +312,17 @@
             </div>
           </ng-template>
         </ngb-tab>
-        <ngb-tab title="Roadmap ">
+        <ngb-tab title="Roadmap">
           <ng-template ngbTabContent>
             <div class="markdown tl roadmap ">
               <markdown [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' "></markdown>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Resources">
+          <ng-template ngbTabContent>
+            <div class="markdown tl ">
+              <markdown [path]=" '../../assets/content/OASP4JS/resources/Resources.md' "></markdown>
             </div>
           </ng-template>
         </ngb-tab>
