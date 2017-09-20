@@ -34,7 +34,8 @@
   margin-bottom: 10%;
 }
 
-.slider h3 {
+.slider h3,
+.slider h5 {
   color: white;
   font-family: Montserrat-Regular;
 }
@@ -78,6 +79,12 @@
   outline: none;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .slider p {
+    font-size: 0.9em;
+  }
+}
+
 @media (max-width: 767px) {
   p {
     margin-left: auto !important;
@@ -108,9 +115,13 @@
     margin: 10px auto!important;
   }
   .slider p,
-  .slider h3 {
+  .slider h3,
+  .slider h5 {
     text-align: center;
     width: 100%;
+  }
+  .slider p {
+    font-size: 13px;
   }
   .carousel-testimonial .carousel-indicators[_ngcontent-c12] {
     margin-top: 0px;
