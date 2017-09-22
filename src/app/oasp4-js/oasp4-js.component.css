@@ -18,7 +18,8 @@
   background: url("../../assets/images/corte_4.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: -550px;
+  background-position-x: -900px;
+  background-position-y: -100px;  
 }
 
 .roadmap .main-title h1 {
@@ -54,7 +55,7 @@
   position: relative;
   width: 30%;
   margin-right: 1em;
-  background-color: #4bbdec;
+  background-color: transparent !important;
   height: 1px;
   line-height: 1px;
   vertical-align: middle;
@@ -95,8 +96,8 @@
   background: url("../../assets/images/corte_4.png");
   background-repeat: no-repeat;
   background-size: 200%;
-  background-position-x: -400px;
-  background-position-y: -950px;
+  background-position-x: -800px;
+  background-position-y: -750px;
   padding: 10%;
   box-shadow: 0 5px 20px rgba(68, 68, 68, 0.3);
 }
