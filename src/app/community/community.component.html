@@ -1,0 +1,156 @@
+<div class="container-fluid oasp4j-container">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-lg-3 col-md-4 sidebar-left">
+      <div class="sidebar-nav">
+        <ul class="sidebar-nav-list">
+          <li class="dropdown">
+            <a href="community#community">Community</a>
+          </li>
+          <li class="dropdown">
+            <a href="community#collaborate">How we collaborate</a>
+          </li>
+          <li class="dropdown">
+            <a href="community#contribute">Contributing to devonfw</a>
+            <ul class="dropdown-submenu">
+              <li><a href="community#topic-landscape">Topic Landscape</a></li>
+              <li><a href="community#harvesting">Harvesting</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="community#oasp-technology-stacks">OASP Technology Stacks</a>
+          </li>
+          <li class="dropdown">
+            <a href="community#newsletter-and-webcast">Newsletter &amp; Webcast</a>
+            <ul class="dropdown-submenu">
+              <li>
+                <a href="community#newsletter">Newsletter</a>
+              </li>
+              <li>
+                <a href="community#webcast">Webcast</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="community#sounding-board-meeting">Sounding Board Meeting</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Sidebar -->
+
+    <!--Overview-->
+
+    <div class="hidden-sm-down col-lg-9 col-md-8 col-sm-7 col-12 content-roadmap">
+      <div class="roadmap">
+        <div class="markdown main-title" id="community">
+          <markdown [path]="'../../assets/content/Community/header.md'"></markdown>
+        </div>
+        <div id="collaborate">
+          <app-how-we-collaborate></app-how-we-collaborate>
+        </div>
+        <div id="contribute">
+          <div class="markdown over">
+            <markdown [path]="'../../assets/content/Community/contribute/contribute.md'"></markdown>
+          </div>
+          <div class="markdown over" id="topic-landscape">
+          	<app-topic-landscape></app-topic-landscape>
+          </div>
+          <div class="markdown over" id="harvesting">
+            <markdown [path]="'../../assets/content/Community/contribute/harvesting.md'"></markdown>            
+          </div>
+        </div>
+        <div id="oasp-technology-stacks">
+          <app-technology-stacks></app-technology-stacks>
+        </div>
+        <div id="newsletter-and-webcast">
+          <div class="markdown over" id="newsletter">
+            <markdown [path]="'../../assets/content/Community/newsletter-webcast/newsletter.md'"></markdown>            
+          </div>
+          <div class="markdown over" id="webcast">
+            <markdown [path]="'../../assets/content/Community/newsletter-webcast/webcast.md'"></markdown>            
+          </div>
+        </div>
+        <div class="markdown over" id="sounding-board-meeting">
+          <markdown [path]="'../../assets/content/Community/sounding-board-meeting/sounding-board-meeting.md'"></markdown>            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--mvl version-->
+
+<div class="container-fluid oasp4jmvl">
+  <div class="row">
+    <div class="hidden-md-up">
+      <ngb-tabset type="pills" class="tabset4j">
+        <ngb-tab title="Collaborate">
+          <ng-template ngbTabContent>
+            <app-how-we-collaborate></app-how-we-collaborate>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Contribute">
+          <ng-template ngbTabContent>
+            <div id="contribute" class="mobileWrap">
+              <div class="markdown over">
+                <markdown [path]="'../../assets/content/Community/contribute/contribute.md'"></markdown>
+              </div>
+              <div class="markdown over">
+                <markdown [path]="'../../assets/content/Community/contribute/harvesting.md'"></markdown>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Technologies">
+          <ng-template ngbTabContent>
+            <div class="techWrapMobile">
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4j.png">
+                </div>
+              </div>
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4js.png">
+                </div>
+              </div>
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4net.png">
+                </div>
+              </div>
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4x.png">
+                </div>
+              </div>
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4mobile.png">
+                </div>
+              </div>
+              <div class="row techRowMobile">
+                <div class="col-md-12 col-sm-12">
+                  <img src="../../assets/images/onepager_oasp4fn.png">
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab title="Newsletters">
+          <ng-template ngbTabContent>
+            <div class="mobileWrap">
+              <div class="markdown over">
+                <markdown [path]="'../../assets/content/Community/newsletter-webcast/newsletter.md'"></markdown>
+              </div>
+              <div class="markdown over">
+                <markdown [path]="'../../assets/content/Community/newsletter-webcast/webcast.md'"></markdown>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+  </div>
+</div>

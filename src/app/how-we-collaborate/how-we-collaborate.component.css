@@ -1,0 +1,54 @@
+/* Latest compiled and minified CSS included as External Resource*/
+
+/* Optional theme */
+
+body {
+    background-color: #4bbdec;
+}
+
+a {
+	color: #4bbdec;
+}
+
+.collabWrapper {
+  margin: 50px 10px;
+}
+
+.collabElementHeader h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.collabElement ul {
+  margin-top: 20px;
+}
+
+.collabElementHeader {
+	background-color: #4bbdec;
+	margin: none;
+	padding: 10px 15px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.collabElementBody {
+	background-color: white;
+	border-bottom-right-radius: 3px; 
+	border-bottom-left-radius: 3px;
+	padding: 10px 15px;
+}
+
+.collabElementBody ul {
+	margin: 0;
+	color: #4bbdec;
+}
+
+.collabElementBody ul li {
+	text-align: left;
+}
+
+.collabElementBody ul li p {
+	color: black;
+}
+

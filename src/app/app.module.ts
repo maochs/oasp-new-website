@@ -26,6 +26,10 @@ import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
+import { HowWeCollaborateComponent } from './how-we-collaborate/how-we-collaborate.component';
+import { TechnologyStacksComponent } from './technology-stacks/technology-stacks.component';
+import { TopicLandscapeComponent } from './topic-landscape/topic-landscape.component';
+import { CommunityComponent } from './community/community.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -35,6 +39,7 @@ const routes: Routes = [
   { path: 'oasp4-net', component: OASP4NETComponent },
   { path: 'More', component: MoreComponent },
   { path: 'TermsOfUse', component: TermsOfUseComponent },
+  { path: 'community', component: CommunityComponent}
 ];
 
 @NgModule({
@@ -60,6 +65,10 @@ const routes: Routes = [
     NgbModalCollaborationComponent,
     Oasp4FnComponent,
     TermsOfUseComponent,
+    HowWeCollaborateComponent,
+    TechnologyStacksComponent,
+    TopicLandscapeComponent,
+    CommunityComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+## Contributing to devonfw
+
+devonfw Platform is organized in a way that it is easy for you to contribute. Therefore we have chosen to use github - the number one platform for social coding - which provides lean processes and great tooling. Currently most repositories are marked as private, hence invisible to you. You can send an email from your Capgemini account with your github login to the devonfw team if you want to get access. Please ensure your real name is set in your github account or your login is matching your Capgemini CORP login. You will be also added to our Capgemini OASP mailing list (see contact).
+
+In order to contribute code we use git and github pull-requests. Lead developers can directly commit to the git repository while (later) everybody can clone and fork the repository and create pull-requests. These can be reviewed, commented and discussed and finally integrated (or rejected).
+
+We are very happy to receive contributions from projects or individual experts. Before you invest your time and work into a larger change or contribution please get in contact before to ensure you will not waste your energy (somebody else might already work on the same thing, etc.). To get in touch and discuss with us please meet us in Yammer.

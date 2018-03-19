@@ -1,0 +1,45 @@
+body {
+	background-color: #4bbdec;
+}
+
+.tlsWrapper {
+	margin: 10px;
+}
+
+.tlsElementHeader h2 {
+	color: white;
+	text-align: center;
+	font-size: .8em;
+	line-height: normal;
+}
+
+.tlsElementHeader {
+	background-color: #4bbdec;
+	margin: none;
+	padding: 10px;
+	border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.tlsElementBody {
+	background-color: white;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 10px;
+}
+
+a img {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+
+.tlsElementBody p {
+	font-size: .75em;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.tlsElementBody p strong {
+	font-weight: bold !important;
+}

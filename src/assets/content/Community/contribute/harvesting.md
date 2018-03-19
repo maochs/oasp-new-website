@@ -1,0 +1,9 @@
+## Harvesting
+
+Everyone agrees that apart from a strong architecture framework, an essential part of the mission of devonfw is to provide a large component library or module catalogue. This also plays an essential part within that principal goal of devonfw: avoiding that we reinvent the wheel from time and time again. However, there is not enough budget available to create a fully featured component catalogue and often a complex component is out of scope of what an individual member of the community would be able to contribute. Ideally, the engagements would contribute to the catalogue but often there is just not enough time nor resources available within the scope of the engagement.
+
+In order to solve this persistent problem we propose the devonfw Harvest.
+
+This is meant to be an agile process wherein the engagements do not have to change their client focused approach. They implement their modules and components in the interest of and within the context of the project. However, we offer them the opportunity to contribute their work within devonfw by participating in “the Harvest”. During these events, basically hackathons, members of the devonfw and OASP communities help volunteers from the engagements “extract” project specific components and turn them into more generic modules which can be used by any future engagement from all over APPS2. By participating in a Harvest, those involved in the engagements can guarantee the existence of the module in future projects, which is to everyone’s advantage, and contribute back to the community; become part of that community. And as a teaser we offer a price for the best component for each Harvest.
+
+This, and everlasting fame, of course.
